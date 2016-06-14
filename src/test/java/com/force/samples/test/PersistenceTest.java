@@ -1,14 +1,11 @@
 package com.force.samples.test;
 
-import java.util.Date;
 import java.util.GregorianCalendar;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.EntityTransaction;
 import javax.persistence.Persistence;
-
-import junit.framework.Assert;
 
 import org.junit.BeforeClass;
 import org.junit.Test;
@@ -18,6 +15,7 @@ import org.slf4j.LoggerFactory;
 import com.force.samples.entity.Author;
 import com.force.samples.entity.Book;
 
+import junit.framework.Assert;
 
 public class PersistenceTest {
 
